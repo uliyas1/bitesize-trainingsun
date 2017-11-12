@@ -1,4 +1,4 @@
-project: sample
+project: sunbite
 environments:
   - name: Development
     namespace: sample-dev

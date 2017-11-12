@@ -1,10 +1,10 @@
-project: sample
+project: sunbite
 components:
   - name: spring-app
     os: linux
     repository:
-      git: git@github.com:thilinapiy/bitesize-sample-apps.git
-      branch: springapp1-v2.0.10
+      git: https://github.com/uliyas1/bitesize-trainingsun.git
+      branch: master
     build:
       - shell: sudo mvn clean package
       - shell: sudo mkdir -p /app
