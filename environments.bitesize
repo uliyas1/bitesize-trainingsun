@@ -1,7 +1,7 @@
 project: sunbite
 environments:
   - name: Development
-    namespace: sample-dev
+    namespace: sunbite-dev
     deployment:
       method: rolling-upgrade
     services:
