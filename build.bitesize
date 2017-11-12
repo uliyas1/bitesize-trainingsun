@@ -3,7 +3,7 @@ components:
   - name: spring-app
     os: linux
     repository:
-      git: https://github.com/uliyas1/bitesize-trainingsun.git
+      git: https://github.com/uliyas1/SpringBootsun.git
       branch: master
     build:
       - shell: sudo mvn clean package
